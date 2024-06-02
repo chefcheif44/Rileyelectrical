@@ -1,0 +1,461 @@
+<style>
+    body {
+	margin: 0;
+	padding: 0
+}
+
+#riley-mobile-logo {
+	display: none
+}
+
+.riley-spark {
+	width: 40px;
+	height: 45px;
+	vertical-align: middle;
+	background-image: url(https://uploads-ssl.webflow.com/658c3e296113dae068d37e3e/661bf6e8d8f70ed73e84abc7_riley-icon-spark.svg);
+	background-size: cover;
+	margin-right: 5px;
+	margin-top: 3px;
+	display: inline-block
+}
+
+@media only screen and (max-width:780px) {
+	#riley-mobile-logo {
+		display: block
+	}
+
+	.riley-container {
+		margin: 0;
+		padding: 1rem 0;
+		position: relative;
+		background-color: #f5f7fa
+	}
+
+	.riley-container p {
+		margin: auto;
+		max-width: 85%
+	}
+
+	.riley-intro {
+		padding: 4.5rem 0;
+		background: url(https://uploads-ssl.webflow.com/658c3e296113dae068d37e3e/6625570694576bb52695b036_rileyelectrical-headerbackground-mobile.svg);
+		background-repeat: no-repeat;
+		background-size: cover
+	}
+
+	ul {
+		list-style-type: none;
+		padding: 0;
+		width: 85%;
+		margin: 16px auto
+	}
+
+	li {
+		display: inline-block;
+		margin-right: 10px;
+		min-width: 110px;
+		font-weight: 600
+	}
+
+	li#text {
+		padding-bottom: 5px
+	}
+
+	.riley-spark {
+		width: 40px;
+		height: 45px;
+		vertical-align: middle;
+		background-image: url(https://uploads-ssl.webflow.com/658c3e296113dae068d37e3e/661bf6e8d8f70ed73e84abc7_riley-icon-spark.svg);
+		background-size: cover;
+		margin-right: 5px;
+		margin-top: 3px;
+		display: inline-block
+	}
+
+	.riley-chevron {
+		position: relative;
+		z-index: 998;
+		height: 80px;
+		margin-bottom: -3rem
+	}
+
+	.riley-chevron img {
+		position: absolute;
+		top: -50%;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 998
+	}
+
+	.riley-intro-contact p,
+	.riley-intro-title h1 {
+		text-align: center;
+		margin: auto;
+		font-weight: 400
+	}
+
+	.riley-intro-title h1 {
+		max-width: 310px;
+		color: #fbc836;
+		width: 60%;
+		font-size: 22px;
+		line-height: 28px;
+		text-transform: uppercase
+	}
+
+	.riley-intro-contact {
+		color: #fff;
+		text-align: center;
+		line-height: 8px;
+		padding-top: 8%
+	}
+
+	.riley-intro-contact p {
+		height: 30px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center
+	}
+
+	.riley-intro-contact img {
+		padding-right: 8px;
+		margin: .5rem 0
+	}
+
+	.riley-ourmission {
+		padding: 1rem 0
+	}
+
+	.riley-ourmission p {
+		margin: auto;
+		padding-bottom: 1.5rem
+	}
+
+	.riley-ourmission img {
+		margin-bottom: 1.5rem;
+		display: block !important;
+		margin: auto
+	}
+
+	.riley-services {
+		position: absolute;
+		bottom: 0
+	}
+
+	.riley-services h2 {
+		margin: auto;
+		max-width: 85%;
+		padding: 1rem 0
+	}
+
+	.riley-services ul {
+		height: 150px !important
+	}
+
+	.gallery-image {
+		display: inline-block
+	}
+
+	.riley-container p {
+		font-family: 'Libre Franklin', sans-serif;
+		font-size: 18px
+	}
+
+	.riley-ourmission {
+		background-repeat: no-repeat;
+		height: auto;
+		width: 100%;
+		background-position: top;
+		z-index: 998;
+		position: relative;
+		background-color: #201d2100;
+		text-align: center
+	}
+
+	.riley-welcome {
+		background-image: url(https://uploads-ssl.webflow.com/658c3e296113dae068d37e3e/661bd570c3836ba218dc43b6_riley-services-bg-mobile.jpg);
+		background-repeat: no-repeat;
+		min-height: 500px;
+		height: 100%;
+		background-position: top;
+		color: #fff;
+		position: relative;
+		background-size: cover
+	}
+
+	#riley-desktop-logo {
+		display: none
+	}
+
+	.riley-services img {
+		display: none
+	}
+    
+    .spark-max-width-600{
+        display: none;
+    }
+    
+    .hero-without-image-2{
+        display: block;
+    }
+    
+    
+}
+
+button {
+	width: 85%;
+	border-style: none;
+	border-radius: 8px;
+	margin: 1rem auto;
+	display: block;
+	padding: 8px;
+	color: #000;
+	font-weight: 600;
+	font-size: 16px
+}
+
+button.primary {
+	background-color: #00a957
+}
+
+button.secondary {
+	background-color: #fbc836
+}
+
+a:link {
+	color: #fff
+}
+
+a:visited {
+	color: #fff
+}
+
+a:hover {
+	color: #fbc836
+}
+
+a:active {
+	color: #fff
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+	font-family: Onest, sans-serif
+}
+
+@media only screen and (min-width:781px) {
+	.riley-container {
+		position: relative;
+		top: 80px
+	}
+
+	#riley-mobile-logo {
+		display: none
+	}
+
+	.riley-intro,
+	.riley-ourmission,
+	.riley-welcome {
+		padding: 2% 0
+	}
+
+	.riley-intro {
+		background: #201d21;
+		display: flex;
+		flex-direction: row;
+		align-content: stretch;
+		justify-content: center;
+		align-items: center
+	}
+
+	.riley-chevron {
+		display: none
+	}
+
+	#riley-desktop-logo {
+		max-width: 115px
+	}
+
+	.riley-container p {
+		font-family: 'Libre Franklin', sans-serif;
+		font-size: 18px
+	}
+
+	.riley-intro-contact,
+	.riley-intro-title {
+		display: inline-block;
+		color: #fff;
+		line-height: 28px;
+		vertical-align: middle
+	}
+
+	.riley-intro-title h1 {
+		max-width: 310px;
+		color: #fbc836;
+		padding: .5rem 0;
+		font-size: 22px;
+		line-height: 28px;
+		text-transform: uppercase
+	}
+
+	.riley-intro-contact a {
+		text-decoration: none
+	}
+
+	.riley-intro-contact img {
+		margin-right: 8px
+	}
+
+	.riley-ourmission,
+	.riley-welcome {
+		display: flex;
+		flex-direction: row;
+		align-content: stretch;
+		justify-content: center;
+		align-items: center
+	}
+
+	.riley-welcome {
+		background: linear-gradient(107deg, rgba(54, 67, 86, 1) 72%, rgba(153, 134, 70, 1) 100%, rgba(251, 200, 54, 1) 100%)
+	}
+
+	.riley-ourmission h2,
+	.riley-ourmission p {
+		display: inline-block;
+		vertical-align: bottom
+	}
+
+	.riley-ourmission h2,
+	.riley-welcome h2 {
+		font-size: 58px;
+		width: 300px;
+		line-height: 64px
+	}
+
+	.riley-ourmission p {
+		width: 475px;
+		vertical-align: text-top
+	}
+
+	.riley-ourmission img {
+		width: 200px;
+		height: 200px;
+		padding-left: 25px
+	}
+
+	.riley-services {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-content: stretch;
+		justify-content: center;
+		align-items: center;
+		color: #fff;
+		position: relative;
+		min-height: 500px
+	}
+
+	.riley-services-flex {
+		width: 325px;
+		padding-top: 2rem
+	}
+
+	.riley-services-flex h2 {
+		margin-bottom: 1rem
+	}
+
+	.riley-services-flex p {
+		width: 265px;
+		line-height: 28px
+	}
+
+	.riley-services ul {
+		list-style: none;
+		width: 350px;
+		display: -webkit-inline-box;
+		font-size: 20px;
+		height: 200px;
+		padding-left: 12px
+	}
+
+	.riley-services li {
+		display: inline-block
+	}
+
+	.riley-services img {
+		margin: 0 40px;
+		position: relative;
+		left: 10%
+	}
+
+	.riley-services-buttons {
+		width: 100%;
+		position: relative;
+		bottom: 115px
+	}
+
+	button {
+		max-width: 300px
+	}
+
+	#riley-cctv {
+		width: 120px
+	}
+    
+   
+    .w-slider{
+        display: none;
+    }
+    
+    .container-2{
+        display: none;
+    }
+    
+    .centered-heading{
+        font-size: 4rem;
+    }
+    
+    .hero-without-image-2{
+        display: none;
+        
+    }
+    
+    .testimonial-slider-small{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width:1040px) {
+
+	.riley-ourmission img,
+	.riley-services img {
+		display: none
+	}
+
+	.riley-services-buttons {
+		bottom: 60px;
+	}
+
+	.riley-services {
+		top: unset;
+		max-height: unset
+	}
+
+	.riley-services ul {
+		height: 80px
+	}
+
+	.riley-services-flex {
+		width: 390px
+	}
+}
+
+</style>
